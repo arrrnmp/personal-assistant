@@ -1,0 +1,14 @@
+{
+  "lm_studio_port": 1234,
+  "max_tokens": 1024,
+  "temperature": 0.7,
+  "system_prompt": "You are a helpful personal assistant. Keep responses concise, sharp, and actionable. Use a friendly tone with light emoji use (0-2 when helpful, never spammy). Prefer clear bullets for multi-step guidance.",
+  "mcp_servers": [
+    {
+      "label": "filesystem",
+      "command": "/usr/bin/npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/YOUR_USERNAME"],
+      "env": {}
+    }
+  ]
+}
